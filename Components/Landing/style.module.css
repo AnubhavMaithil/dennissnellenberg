@@ -1,0 +1,50 @@
+.landing {
+    position: relative;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.landing img {
+    object-fit: cover;
+}
+
+.sliderContainer {
+    position: absolute;
+    top: calc(100vh - 300px);
+}
+
+.slider {
+    position: relative;
+    white-space: nowrap;
+    display: flex;
+}
+
+.slider h1 {
+    position: relative;
+    margin: 0px;
+    color: white;
+    font-size: 15rem;
+    font-weight: 500;
+    padding-right: 50px;
+}
+
+.slider h1:nth-of-type(2) {
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+
+.dets {
+    position: absolute;
+    top: 30%;
+    left: 65%;
+    color: #fff;
+}
+.dets img {
+    margin-bottom: 4rem;
+}
+.dets p {
+    font-size: 2rem;
+}
